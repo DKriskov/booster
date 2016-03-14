@@ -42,20 +42,10 @@ gulp.task('useref', function(){
     .pipe(gulp.dest('dist'))
 });
 
-// gulp.task('nunjucks', function() {
-//   nunjucksRender.nunjucks.configure(['app/templates/'], {watch:false});
-//
-//   return gulp.src('app/pages/**/*.+(html|nunjucks)')
-//   // Renders template with nunjucks
-//   .pipe(nunjucksRender())
-//   // output files in app folder
-//   .pipe(gulp.dest('app'))
-// });
-
 gulp.task('nunjucks', function() {
   return gulp.src('app/pages/*.nunjucks')
   .pipe(nunjucksRender({
-  path: ['app/pages/', 'app/templates/'] // String or Array
+  path: ['app/pages/', 'app/templates/']
   }))
   .pipe(gulp.dest('app'));
 });
