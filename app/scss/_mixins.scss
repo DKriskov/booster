@@ -1,0 +1,49 @@
+@import 'variables';
+
+@mixin retina {
+  @media #{$media-query-retina} { @content; }
+}
+
+@mixin mobile-small {
+  @media #{$media-query-mobile-small} { @content; }
+}
+
+@mixin mobile {
+  @media #{$media-query-mobile} { @content; }
+}
+
+@mixin mobile-big {
+  @media #{$media-query-mobile-big} { @content; }
+}
+
+@mixin tablet {
+  @media #{$media-query-tablet} { @content; }
+}
+
+@mixin tablet-only {
+  @media #{$media-query-tablet-only} { @content; }
+}
+
+@mixin mobile-to-tablet {
+  @media #{$media-query-mobile-to-tablet} { @content; }
+}
+
+@mixin desktop {
+  @media #{$media-query-desktop} { @content; }
+}
+
+@mixin desktop-only {
+  @media #{$media-query-desktop-only} { @content; }
+}
+
+@mixin large {
+  @media #{$media-query-large} { @content; }
+}
+
+@mixin large-only {
+  @media #{$media-query-large-only} { @content; }
+}
+
+@mixin xlarge {
+  @media #{$media-query-xlarge} { @content; }
+}

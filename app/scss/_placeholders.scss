@@ -1,0 +1,11 @@
+@import "bower_components/susy/sass/susy";
+@import 'variables';
+@import 'mixins';
+
+%container {
+  @include container;
+  @include tablet-only { max-width: $container-width-tablet; }
+  @include desktop-only { max-width: $container-width-desktop; }
+  @include large-only { max-width: $container-width-large; }
+  @include xlarge { max-width: $container-width-xlarge; }
+}

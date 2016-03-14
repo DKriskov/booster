@@ -1,0 +1,27 @@
+$susy: (
+  columns: 12,
+  gutters: 0.25,
+  container: 1120px,
+  gutter-position: inside,
+  output: isolate,
+  global-box-sizing: border-box
+);
+
+$media-query-retina: 'only screen and (min-resolution: 2dppx)';
+$media-query-mobile-small: '(max-width: 550px)';
+$media-query-mobile: '(max-width: 767px)';
+$media-query-mobile-big: '(min-width: 551px) and (max-width: 767px)';
+$media-query-tablet: '(min-width: 768px)';
+$media-query-tablet-only: '(min-width: 768px) and (max-width: 991px)';
+$media-query-mobile-to-tablet: '(max-width: 991px)';
+$media-query-desktop: '(min-width: 992px)';
+$media-query-desktop-only: '(min-width: 992px) and (max-width: 1199px)';
+$media-query-large: '(min-width: 1200px)';
+$media-query-large-only: '(min-width: 1200px) and (max-width: 1449px)';
+$media-query-xlarge: '(min-width: 1450px)';
+
+$container-width-mobile-big: 530px;
+$container-width-tablet: 730px;
+$container-width-desktop: 950px;
+$container-width-large: 1150px;
+$container-width-xlarge: 1430px;

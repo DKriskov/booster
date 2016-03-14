@@ -1,0 +1,16 @@
+@import "bower_components/susy/sass/susy";
+@import "placeholders";
+@import "variables";
+
+
+.container {
+  @extend %container;
+
+  .column {
+    @include span(6 of 12);
+
+    &:last-child {
+      @include span(6 of 12 last);
+    }
+  }
+}
