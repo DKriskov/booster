@@ -1,0 +1,28 @@
+@import 'variables';
+
+.main-content {
+  @include container;
+  padding: 30px 40px 40px;
+  max-width: 100%;
+  text-align: center;
+
+  .btn {
+    @include span(4);
+
+    &:last-child {
+      @include span(4 last);
+    }
+  }
+}
+
+.main-content__image {
+  max-width: 100%;
+}
+
+.main-content__text {
+  @include span(8);
+  @include push(2);
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 20px;
+}

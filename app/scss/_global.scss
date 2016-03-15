@@ -22,6 +22,8 @@
   @include span(4);
 }
 
-.main-content {
+.main-content-wrapper {
   @include span(8 last);
+
+  box-shadow: -5px 0px 5px -3px $borders-color;
 }

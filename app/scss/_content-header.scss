@@ -1,0 +1,12 @@
+@import 'variables';
+
+.content-header {
+  padding: 35px 25px;
+  border-bottom: 1px solid $borders-color;
+}
+
+.content-header__title {
+  margin: 0;
+  color: $text-color;
+  font-size: 30px;
+}
