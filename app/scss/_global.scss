@@ -41,7 +41,7 @@ body {
 .btn {
   display: block;
   width: 100%;
-  padding: 12px 20px;
+  padding: 8px 20px;
   box-sizing: border-box;
   max-width: 210px;
   margin: 0 auto;
@@ -54,7 +54,7 @@ body {
 
   @include tablet-only {
     font-size: 15px;
-    padding: 10px 7px;
+    padding: 8px 7px;
   }
 
   $button-colors: (
