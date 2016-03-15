@@ -2,6 +2,10 @@
 @import "placeholders";
 @import "variables";
 
+body {
+  font-family: 'Palanquin', sans-serif;
+}
+
 .title {
   @extend %title;
 }
@@ -82,7 +86,7 @@
   border-radius: 50%;
   border: 1px solid $light-color;
   color: $light-color;
-  font-size: 20px;
+  font-size: 17px;
   padding: 8px;
   display: inline-block;
   transition: all .5s ease;

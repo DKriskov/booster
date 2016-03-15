@@ -22,4 +22,9 @@
 .promo-section__link {
   font-size: 20px;
   color: $light-text-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
