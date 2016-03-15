@@ -26,7 +26,6 @@
 .main-content-wrapper {
   @include mobile {
     @include span(12);
-    //@include push(1);
   }
 
   @include tablet {
@@ -47,22 +46,27 @@
   color: $light-color;
   font-size: 17px;
   text-transform: uppercase;
+  transition: background-color, .2s ease;
 
   @include tablet-only {
     font-size: 15px;
     padding: 10px 7px;
   }
 
-  &.btn__green {
-    background-color: $green-color;
-  }
+  $button-colors: (
+    green: $green-color,
+    blue: $blue-color,
+    light-blue: $light-blue-color
+  );
 
-  &.btn__blue {
-    background-color: $blue-color;
-  }
+  @each $color_name, $current-color in $button-colors {
+    &.btn__#{$color_name} {
+      background-color: $current-color;
 
-  &.btn__light-blue {
-    background-color: $light-blue-color;
+      &:hover {
+        background-color: darken($current-color, 10%);
+      }
+    }
   }
 }
 

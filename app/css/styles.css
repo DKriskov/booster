@@ -2499,17 +2499,24 @@ th {
   border-radius: 4px;
   color: #FFF;
   font-size: 17px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: background-color, .2s ease; }
   @media (min-width: 768px) and (max-width: 991px) {
     .btn {
       font-size: 15px;
       padding: 10px 7px; } }
   .btn.btn__green {
     background-color: #46A40C; }
+    .btn.btn__green:hover {
+      background-color: #327409; }
   .btn.btn__blue {
     background-color: #2F5D9F; }
+    .btn.btn__blue:hover {
+      background-color: #234678; }
   .btn.btn__light-blue {
     background-color: #3DAFF0; }
+    .btn.btn__light-blue:hover {
+      background-color: #129ae8; }
 
 .btn__text {
   margin-left: 10px; }
