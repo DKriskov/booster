@@ -19,7 +19,7 @@ gulp.task('sass', function(){
 			browsers: ['safari 9','ie 9', 'firefox 43'],
 			cascade: false
 		}))
-    .pipe(gulp.dest('app/css'))
+    .pipe(gulp.dest('app/assets/css'))
 });
 
 gulp.task('browserSync', function() {
@@ -39,7 +39,7 @@ gulp.task('useref', function(){
   return gulp.src('app/*.html')
     .pipe(useref())
     .pipe(gulpIf('*.css', cssnano()))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist/assets'))
 });
 
 gulp.task('nunjucks', function() {

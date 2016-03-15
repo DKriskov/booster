@@ -21,10 +21,10 @@
     </div>
     <div class="footer-column">
       <a class='download-app' href='#'>
-        <img class="download-app__image" src='css/images/apple.png'>
+        <img class="download-app__image" src='assets/images/apple.png'>
       </a>
       <a class='download-app' href='#'>
-        <img class='download-app__image' src='css/images/google.png'>
+        <img class='download-app__image' src='assets/images/google.png'>
       </a>
     </div>
   </div>
