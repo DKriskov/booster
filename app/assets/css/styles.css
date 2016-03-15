@@ -2535,7 +2535,7 @@ body {
   border-radius: 50%;
   border: 1px solid #FFF;
   color: #FFF;
-  font-size: 17px;
+  font-size: 15px;
   padding: 8px;
   display: inline-block;
   transition: all .5s ease;
@@ -2548,8 +2548,8 @@ body {
     .social-link:hover .fa {
       color: #291A34; }
   .social-link .fa {
-    width: 25px;
-    height: 23px;
+    width: 28px;
+    height: 22px;
     text-align: center; }
 
 .download-app {
