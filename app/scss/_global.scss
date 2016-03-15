@@ -19,11 +19,11 @@
 }
 
 .sidebar {
-  @include span(4 first $small-gutters);
+  @include span(4 first $no-gutters);
 }
 
 .main-content-wrapper {
-  @include span(8 last $small-gutters);
+  @include span(8 last $no-gutters);
 
   box-shadow: -5px 0px 5px -3px $borders-color;
 }

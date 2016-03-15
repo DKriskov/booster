@@ -7,13 +7,15 @@
 
 .header-container {
   @extend %container;
+  position: relative;
 }
 
 .header-profile-cont {
   display: none;
 
   @include tablet {
-    float: right;
+    position: absolute;
+    right: 0;
     color: $light-color;
     margin-top: 5px;
     display: block;
