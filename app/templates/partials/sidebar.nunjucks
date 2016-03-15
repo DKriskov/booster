@@ -1,6 +1,6 @@
 <aside class='sidebar'>
   <div class='user-profile'>
-    <img src='http://placehold.it/300x300' class='user-profile__image'>
+    <img src='css/images/user-placeholder.jpg' class='user-profile__image'>
     <p class='user-profile__name'>Diego</p>
   </div>
 

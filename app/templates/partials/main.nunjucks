@@ -4,7 +4,7 @@
   </header>
 
   <section class='main-content'>
-    <img class='main-content__image' src='http://placehold.it/500x300'>
+    <img class='main-content__image' src='css/images/content-image.jpg'>
     <p class='main-content__text'>Sign up now to claim your free gift from Diego ($15 off first ride)<sup>*</sup></p>
     <div class="main-content__column">
       <a href="#" class="btn btn__green">
