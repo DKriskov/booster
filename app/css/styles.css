@@ -2459,19 +2459,34 @@ th {
   text-transform: uppercase;
   text-align: center; }
 
-.content-wrapper {
-  border-left: 1px solid #EFEFEF;
-  border-right: 1px solid #EFEFEF; }
+@media (min-width: 768px) {
+  .content-wrapper {
+    border-left: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF; } }
 
 .sidebar {
   width: 33.33333%;
   float: left; }
+  @media (max-width: 767px) {
+    .sidebar {
+      width: 83.05085%;
+      float: left;
+      margin-right: 1.69492%;
+      margin-left: 8.47458%; } }
 
-.main-content-wrapper {
-  width: 66.66667%;
-  float: right;
-  margin-right: 0;
-  box-shadow: -5px 0px 5px -3px #EFEFEF; }
+@media (max-width: 767px) {
+  .main-content-wrapper {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media (min-width: 768px) {
+  .main-content-wrapper {
+    box-shadow: -5px 0px 5px -3px #EFEFEF;
+    width: 66.66667%;
+    float: right;
+    margin-right: 0; } }
 
 .btn {
   display: block;
@@ -2578,8 +2593,11 @@ th {
   float: right; }
 
 .content-header {
-  padding: 35px 25px;
-  border-bottom: 1px solid #EFEFEF; }
+  padding: 35px 25px 15px; }
+  @media (min-width: 768px) {
+    .content-header {
+      padding: 35px 25px;
+      border-bottom: 1px solid #EFEFEF; } }
 
 .content-header__title {
   margin: 0;
@@ -2597,9 +2615,15 @@ th {
     content: " ";
     display: block;
     clear: both; }
+  @media (max-width: 767px) {
+    .main-content {
+      padding: 15px 30px 20px; } }
 
 .main-content__image {
   max-width: 100%; }
+  @media (max-width: 767px) {
+    .main-content__image {
+      margin: 0 auto; } }
 
 .main-content__text {
   width: 66.10169%;
@@ -2608,16 +2632,27 @@ th {
   margin-left: 16.94915%;
   font-size: 25px;
   line-height: 35px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  box-sizing: border-box; }
+  @media (max-width: 767px) {
+    .main-content__text {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0 15px;
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 10px; } }
 
 .main-content__column {
   margin: 15px 0; }
   @media (max-width: 767px) {
     .main-content__column {
-      width: 83.05085%;
+      width: 100%;
       float: left;
-      margin-right: 1.69492%;
-      margin-left: 8.47458%; } }
+      margin-left: 0;
+      margin-right: 0; } }
   @media (min-width: 768px) {
     .main-content__column {
       width: 32.20339%;

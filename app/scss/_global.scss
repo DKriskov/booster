@@ -8,18 +8,31 @@
 
 .content-wrapper {
   @extend %container;
-  border-left: 1px solid $borders-color;
-  border-right: 1px solid $borders-color;
+
+  @include tablet {
+    border-left: 1px solid $borders-color;
+    border-right: 1px solid $borders-color;
+  }
 }
 
 .sidebar {
+  @include mobile {
+    @include span(10 of 12);
+    @include push(1);
+  }
   @include span(4 first $no-gutters);
 }
 
 .main-content-wrapper {
-  @include span(8 last $no-gutters);
+  @include mobile {
+    @include span(12);
+    //@include push(1);
+  }
 
-  box-shadow: -5px 0px 5px -3px $borders-color;
+  @include tablet {
+    box-shadow: -5px 0px 5px -3px $borders-color;
+    @include span(8 last $no-gutters);
+  }
 }
 
 .btn {

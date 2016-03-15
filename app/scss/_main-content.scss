@@ -5,10 +5,18 @@
   padding: 30px 40px 25px;
   max-width: 100%;
   text-align: center;
+
+  @include mobile {
+    padding: 15px 30px 20px;
+  }
 }
 
 .main-content__image {
   max-width: 100%;
+
+  @include mobile {
+    margin: 0 auto;
+  }
 }
 
 .main-content__text {
@@ -17,14 +25,22 @@
   font-size: 25px;
   line-height: 35px;
   margin-top: 20px;
+  box-sizing: border-box;
+
+  @include mobile {
+    @include span(12);
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
 }
 
 .main-content__column {
   margin: 15px 0;
 
   @include mobile {
-    @include span(10 of 12);
-    @include push(1);
+    @include span(12);
   }
 
   @include tablet {
@@ -34,5 +50,4 @@
       @include span(4 last);
     }
   }
-
 }
