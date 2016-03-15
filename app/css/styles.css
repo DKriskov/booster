@@ -2453,8 +2453,7 @@ th {
     .content-wrapper, .header-container, .footer-container {
       max-width: 1430px; } }
 
-.title, .header-title {
-  color: #FFF;
+.title, .header-title, .content-header__title {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center; }
@@ -2584,8 +2583,7 @@ th {
     .content-wrapper, .header-container, .footer-container {
       max-width: 1430px; } }
 
-.title, .header-title {
-  color: #FFF;
+.title, .header-title, .content-header__title {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center; }
@@ -2605,9 +2603,11 @@ th {
 .header-container {
   position: relative; }
 
-@media (max-width: 767px) {
-  .header-title {
-    font-size: 22px; } }
+.header-title {
+  color: #FFF; }
+  @media (max-width: 767px) {
+    .header-title {
+      font-size: 22px; } }
 
 .header-logo {
   width: 74px;
@@ -2790,8 +2790,7 @@ th {
     .content-wrapper, .header-container, .footer-container {
       max-width: 1430px; } }
 
-.title, .header-title {
-  color: #FFF;
+.title, .header-title, .content-header__title {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center; }
@@ -2858,8 +2857,7 @@ th {
     .content-wrapper, .header-container, .footer-container {
       max-width: 1430px; } }
 
-.title, .header-title {
-  color: #FFF;
+.title, .header-title, .content-header__title {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center; }

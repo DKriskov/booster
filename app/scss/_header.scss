@@ -18,6 +18,7 @@
 
 .header-title {
   @extend %title;
+  color: $light-color;
 
   @include mobile {
     font-size: 22px;

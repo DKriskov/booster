@@ -11,6 +11,7 @@
 }
 
 .content-header__title {
+  @extend %title;
   margin: 0;
   color: $text-color;
   font-size: 30px;
