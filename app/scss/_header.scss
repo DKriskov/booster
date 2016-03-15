@@ -1,0 +1,29 @@
+@import "lib/normalize";
+@import "bower_components/susy/sass/susy";
+@import "placeholders";
+@import "mixins";
+@import "variables";
+
+.header {
+  background-color: $main-color;
+  padding: 30px 0;
+}
+
+.profile-link-cont {
+  display: none;
+
+  @include tablet {
+    float: right;
+    color: $light-color;
+    margin-top: 5px;
+    display: block;
+  }
+}
+
+.profile-dropdown__name {
+  margin-left: 3px;
+}
+
+.profile-dropdown__img {
+  vertical-align: middle;
+}
