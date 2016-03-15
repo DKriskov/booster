@@ -1,0 +1,27 @@
+<aside class='sidebar'>
+  <div class='user-profile'>
+    <img src='http://placehold.it/300x300' class='user-profile__image'>
+    <p class='user-profile__name'>Diego</p>
+  </div>
+
+  <ul class='side-nav'>
+    <li class="side-nav__item">
+      <a href='#' class="side-nav__link">My Trips</a>
+    </li>
+    <li class="side-nav__item">
+      <a href='#' class="side-nav__link">Profile</a>
+    </li>
+    <li class="side-nav__item">
+      <a href='#' class="side-nav__link">Payment</a>
+    </li>
+    <li class="side-nav__item">
+      <a href='#' class="side-nav__link side-nav__link--active">
+        Discounts
+        <span class='side-nav__notify'>NEW!<span>
+      </a>
+    </li>
+    <li class="side-nav__item">
+      <a href='#' class="side-nav__link">Log out</a>
+    </li>
+  </ul>
+</aside>

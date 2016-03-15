@@ -1,14 +1,6 @@
+@import "lib/normalize";
+
 @import 'global';
 @import 'header';
-
-//.container {
-//  @extend %container;
-//
-//  .column {
-//    @include span(6 of 12);
-//
-//    &:last-child {
-//      @include span(6 of 12 last);
-//    }
-//  }
-//}
+@import 'user-profile';
+@import 'side-nav';

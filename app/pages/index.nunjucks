@@ -4,12 +4,9 @@
 {% block content %}
   {% include "partials/header.nunjucks" %}
 
-  <div class='container'>
-    <div class='column'>
-      testing
-    </div>
-    <div class='second-column'>
-      testing
-    </div>
-  </div>
+  <section class='content-wrapper'>
+    {% include "partials/sidebar.nunjucks" %}
+
+    {% include "partials/main.nunjucks" %}
+  </section>
 {% endblock %}

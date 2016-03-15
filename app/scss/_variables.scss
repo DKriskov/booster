@@ -1,9 +1,6 @@
 $susy: (
   columns: 12,
-  gutters: 0.25,
   container: 1120px,
-  gutter-position: inside,
-  output: isolate,
   global-box-sizing: border-box
 );
 
@@ -27,4 +24,8 @@ $container-width-large: 1150px;
 $container-width-xlarge: 1430px;
 
 $main-color: #291A34;
-$light-color: #fff;
+$light-theme-color: #774F94;
+$light-color: #FFF;
+$borders-color: #EFEFEF;
+$text-color: #291a34;
+$dark-color: #000;

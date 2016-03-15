@@ -1,0 +1,14 @@
+@import "variables";
+
+.user-profile {
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.user-profile__image {
+  max-width: 100%;
+}
+
+.user-profile__name {
+  margin: 10px 0 0;
+}

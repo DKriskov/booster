@@ -1,0 +1,32 @@
+.side-nav {
+  padding: 0;
+  list-style-type: none;
+  margin: 10px 0 30px;
+}
+
+.side-nav__item {
+  &:first-child {
+    .side-nav__link {
+      border-top: 1px solid $borders-color;
+    }
+  }
+}
+
+.side-nav__link {
+  color: $text-color;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-bottom: 1px solid $borders-color;
+
+  &:hover, &--active {
+    font-weight: bold;
+    color: $light-theme-color;
+  }
+}
+
+.side-nav__notify {
+  color: $light-theme-color;
+  font-weight: bold;
+  float: right;
+}
