@@ -1,0 +1,51 @@
+@import "placeholders";
+@import "variables";
+@import "mixins";
+
+.footer-navigation {
+  @extend %clearfix;
+  padding: 0;
+  margin: 20px auto;
+  list-style-type: none;
+}
+
+.footer-navigation__item {
+  float: left;
+  margin-left: 10px;
+
+  @include mobile-small {
+    margin-left: 4px;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    .footer-navigation__link {
+      &:after {
+        content: '';
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.footer-navigation__link {
+  display: block;
+  text-decoration: none;
+  color: $light-color;
+
+  @include mobile-small {
+    font-size: 14px;
+  }
+
+  &:after {
+    content: '·';
+    margin-left: 10px;
+
+    @include mobile-small {
+      margin-left: 4px;
+    }
+  }
+}

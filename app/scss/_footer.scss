@@ -1,0 +1,39 @@
+@import "placeholders";
+@import "variables";
+@import "mixins";
+
+.footer {
+  padding: 30px 0;
+  background-color: $main-color;
+}
+
+.footer-container {
+  @extend %container;
+}
+
+.footer-column {
+  @include span(12);
+  text-align: center;
+
+
+  @include desktop {
+    text-align: left;
+    @include span(3 of 14);
+  }
+
+  &--middle {
+    @include span(12);
+
+    @include desktop {
+      @include span(7 of 14);
+    }
+  }
+
+  &:last-child {
+    @include span(12 last);
+
+    @include desktop {
+      @include span(4 of 14 last);
+    }
+  }
+}

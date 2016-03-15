@@ -1,8 +1,14 @@
+@import "placeholders";
 @import "variables";
+@import "mixins";
 
 .header {
   background-color: $main-color;
-  padding: 20px 0;
+  padding: 10px 0;
+
+  @include mobile {
+    padding: 20px 0;
+  }
 }
 
 .header-container {
@@ -42,7 +48,6 @@
     position: absolute;
     right: 0;
     color: $light-color;
-    margin-top: 5px;
     display: block;
     font-size: 24px;
   }

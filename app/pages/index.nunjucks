@@ -9,4 +9,6 @@
 
     {% include "partials/main.nunjucks" %}
   </section>
+
+  {% include "partials/footer.nunjucks" %}
 {% endblock %}

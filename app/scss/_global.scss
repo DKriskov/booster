@@ -77,3 +77,51 @@
     margin-left: 5px;
   }
 }
+
+.social-link {
+  border-radius: 50%;
+  border: 1px solid $light-color;
+  color: $light-color;
+  font-size: 20px;
+  padding: 8px;
+  display: inline-block;
+  transition: all .5s ease;
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    border-color: transparent;
+    background-color: $light-color;
+
+    .fa {
+      color: $main-color;
+    }
+  }
+
+  .fa {
+    width: 25px;
+    height: 23px;
+    text-align: center;
+  }
+}
+
+.download-app {
+  display: inline-block;
+  margin: 14px 0 0 10px;
+  max-width: 100px;
+
+  @include desktop {
+    float: right;
+  }
+
+  &:last-child {
+    margin: 10px 0 0 10px;
+  }
+}
+
+.download-app__image {
+  max-width: 100%;
+}

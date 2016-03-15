@@ -11,7 +11,13 @@
 
 %title {
   color: $light-color;
-  font-size: 32px;
+  font-size: 28px;
   text-transform: uppercase;
   text-align: center;
+}
+
+%clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
