@@ -2676,3 +2676,13 @@ th {
 .promo-section__link {
   font-size: 20px;
   color: #9F9f9F; }
+
+.regular-content {
+  padding: 35px 50px;
+  text-align: center; }
+
+.regular-content__text {
+  font-size: 15px;
+  line-height: 22px;
+  color: #9F9f9F;
+  margin: 0; }

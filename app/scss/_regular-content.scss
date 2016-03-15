@@ -1,0 +1,14 @@
+@import "mixins";
+@import "variables";
+
+.regular-content {
+  padding: 35px 50px;
+  text-align: center;
+}
+
+.regular-content__text {
+  font-size: 15px;
+  line-height: 22px;
+  color: $light-text-color;
+  margin: 0;
+}
