@@ -12,13 +12,29 @@
 
 .header-title {
   @extend %title;
+
+  @include mobile {
+    font-size: 22px;
+  }
 }
 
 .header-logo {
   width: 100px;
   height: 47px;
   position: absolute;
-  background: url('images/booster-fuels.png') no-repeat center center;
+  background: {
+    image: url('images/booster-fuels.png');
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  };
+
+  @include mobile {
+    width: 74px;
+    height: 35px;
+    position: static;
+    margin: 0 auto;
+  }
 }
 
 .header-profile-cont {
