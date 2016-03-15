@@ -2,17 +2,9 @@
 
 .main-content {
   @include container;
-  padding: 30px 40px 40px;
+  padding: 30px 40px 25px;
   max-width: 100%;
   text-align: center;
-
-  .btn {
-    @include span(4);
-
-    &:last-child {
-      @include span(4 last);
-    }
-  }
 }
 
 .main-content__image {
@@ -25,4 +17,13 @@
   font-size: 25px;
   line-height: 35px;
   margin-top: 20px;
+}
+
+.main-content__column {
+  margin: 15px 0;
+  @include span(4);
+
+  &:last-child {
+    @include span(4 last);
+  }
 }

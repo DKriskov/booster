@@ -19,11 +19,41 @@
 }
 
 .sidebar {
-  @include span(4);
+  @include span(4 first $small-gutters);
 }
 
 .main-content-wrapper {
-  @include span(8 last);
+  @include span(8 last $small-gutters);
 
   box-shadow: -5px 0px 5px -3px $borders-color;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px 30px;
+  box-sizing: border-box;
+  max-width: 210px;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 4px;
+  color: $light-color;
+  font-size: 17px;
+  text-transform: uppercase;
+
+  &.btn__green {
+    background-color: $green-color;
+  }
+
+  &.btn__blue {
+    background-color: $blue-color;
+  }
+
+  &.btn__light-blue {
+    background-color: $light-blue-color;
+  }
+}
+
+.btn__text {
+  margin-left: 10px;
 }

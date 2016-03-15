@@ -4,6 +4,10 @@ $susy: (
   global-box-sizing: border-box
 );
 
+$small-gutters: (
+  gutters: 0
+);
+
 $media-query-retina: 'only screen and (min-resolution: 2dppx)';
 $media-query-mobile-small: '(max-width: 550px)';
 $media-query-mobile: '(max-width: 767px)';
@@ -29,3 +33,6 @@ $light-color: #FFF;
 $borders-color: #EFEFEF;
 $text-color: #291a34;
 $dark-color: #000;
+$green-color: #46A40C;
+$blue-color: #2F5D9F;
+$light-blue-color: #3DAFF0;

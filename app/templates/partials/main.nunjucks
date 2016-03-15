@@ -6,8 +6,23 @@
   <section class='main-content'>
     <img class='main-content__image' src='http://placehold.it/500x300'>
     <p class='main-content__text'>Sign up now to claim your free gift from Diego ($15 off first ride)<sup>*</sup></p>
-    <div class='btn'><i class="fa fa-bluetooth"></i></div>
-    <div class='btn'>test</div>
-    <div class='btn'>test</div>
+    <div class="main-content__column">
+      <a href="#" class="btn btn__green">
+        <i class="fa fa-envelope-o"></i>
+        <span class='btn__text'>Send</sapn>
+      </a>
+    </div>
+    <div class="main-content__column">
+      <a href="#" class="btn btn__blue">
+        <i class="fa fa-envelope-o"></i>
+        <span class='btn__text'>Facebook</sapn>
+      </a>
+    </div>
+    <div class="main-content__column">
+      <a href="#" class="btn btn__light-blue">
+        <i class="fa fa-envelope-o"></i>
+        <span class='btn__text'>Twitter</sapn>
+      </a>
+    </div>
   </section>
 </main>
