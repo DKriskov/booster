@@ -21,9 +21,18 @@
 
 .main-content__column {
   margin: 15px 0;
-  @include span(4);
 
-  &:last-child {
-    @include span(4 last);
+  @include mobile {
+    @include span(10 of 12);
+    @include push(1);
   }
+
+  @include tablet {
+    @include span(4);
+
+    &:last-child {
+      @include span(4 last);
+    }
+  }
+
 }

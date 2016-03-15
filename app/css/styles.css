@@ -2476,7 +2476,7 @@ th {
 .btn {
   display: block;
   width: 100%;
-  padding: 12px 30px;
+  padding: 12px 20px;
   box-sizing: border-box;
   max-width: 210px;
   margin: 0 auto;
@@ -2485,6 +2485,10 @@ th {
   color: #FFF;
   font-size: 17px;
   text-transform: uppercase; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .btn {
+      font-size: 15px;
+      padding: 10px 7px; } }
   .btn.btn__green {
     background-color: #46A40C; }
   .btn.btn__blue {
@@ -2494,6 +2498,9 @@ th {
 
 .btn__text {
   margin-left: 10px; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .btn__text {
+      margin-left: 5px; } }
 
 .header {
   background-color: #291A34;
@@ -2591,11 +2598,19 @@ th {
   margin-top: 20px; }
 
 .main-content__column {
-  margin: 15px 0;
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%; }
-  .main-content__column:last-child {
-    width: 32.20339%;
-    float: right;
-    margin-right: 0; }
+  margin: 15px 0; }
+  @media (max-width: 767px) {
+    .main-content__column {
+      width: 83.05085%;
+      float: left;
+      margin-right: 1.69492%;
+      margin-left: 8.47458%; } }
+  @media (min-width: 768px) {
+    .main-content__column {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%; }
+      .main-content__column:last-child {
+        width: 32.20339%;
+        float: right;
+        margin-right: 0; } }

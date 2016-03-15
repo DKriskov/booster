@@ -1,3 +1,4 @@
+@import "mixins";
 @import "placeholders";
 @import "variables";
 
@@ -24,7 +25,7 @@
 .btn {
   display: block;
   width: 100%;
-  padding: 12px 30px;
+  padding: 12px 20px;
   box-sizing: border-box;
   max-width: 210px;
   margin: 0 auto;
@@ -33,6 +34,11 @@
   color: $light-color;
   font-size: 17px;
   text-transform: uppercase;
+
+  @include tablet-only {
+    font-size: 15px;
+    padding: 10px 7px;
+  }
 
   &.btn__green {
     background-color: $green-color;
@@ -49,4 +55,8 @@
 
 .btn__text {
   margin-left: 10px;
+
+  @include tablet-only {
+    margin-left: 5px;
+  }
 }
