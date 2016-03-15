@@ -2529,8 +2529,8 @@ th {
     font-size: 22px; } }
 
 .header-logo {
-  width: 100px;
-  height: 47px;
+  width: 74px;
+  height: 35px;
   position: absolute;
   background-image: url("images/booster-fuels.png");
   background-repeat: no-repeat;
@@ -2538,8 +2538,6 @@ th {
   background-size: cover; }
   @media (max-width: 767px) {
     .header-logo {
-      width: 74px;
-      height: 35px;
       position: static;
       margin: 0 auto; } }
 
