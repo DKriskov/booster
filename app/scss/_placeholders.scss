@@ -8,3 +8,10 @@
   @include large-only { max-width: $container-width-large; }
   @include xlarge { max-width: $container-width-xlarge; }
 }
+
+%title {
+  color: $light-color;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}

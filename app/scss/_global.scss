@@ -2,14 +2,7 @@
 @import "variables";
 
 .title {
-  color: $light-color;
-  font-size: 32px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.title--main-title {
-  margin: 0;
+  @extend %title;
 }
 
 .content-wrapper {

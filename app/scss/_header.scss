@@ -10,6 +10,17 @@
   position: relative;
 }
 
+.header-title {
+  @extend %title;
+}
+
+.header-logo {
+  width: 100px;
+  height: 47px;
+  position: absolute;
+  background: url('images/booster-fuels.png') no-repeat center center;
+}
+
 .header-profile-cont {
   display: none;
 
