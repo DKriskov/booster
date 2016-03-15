@@ -22,16 +22,14 @@
 .main-content__text {
   @include span(8);
   @include push(2);
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   margin-top: 20px;
   box-sizing: border-box;
 
   @include mobile {
     @include span(12);
     padding: 0 15px;
-    font-size: 20px;
-    line-height: 30px;
     margin-top: 10px;
   }
 }

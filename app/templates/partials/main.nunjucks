@@ -25,4 +25,10 @@
       </a>
     </div>
   </section>
+
+  <section class="promo-section">
+    <h3 class="promo-section__title">Send your promo code</h3>
+    <p class="promo-section__code">dtrmw</p>
+    <a href='#' class="promo-section__link">Get Your Invite Link</a>
+  </section>
 </main>

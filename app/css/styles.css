@@ -2628,8 +2628,8 @@ th {
   float: left;
   margin-right: 1.69492%;
   margin-left: 16.94915%;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   margin-top: 20px;
   box-sizing: border-box; }
   @media (max-width: 767px) {
@@ -2639,8 +2639,6 @@ th {
       margin-left: 0;
       margin-right: 0;
       padding: 0 15px;
-      font-size: 20px;
-      line-height: 30px;
       margin-top: 10px; } }
 
 .main-content__column {
@@ -2660,3 +2658,21 @@ th {
         width: 32.20339%;
         float: right;
         margin-right: 0; } }
+
+.promo-section {
+  background-color: #EFEFEF;
+  padding: 20px 10px;
+  text-align: center; }
+
+.promo-section__title {
+  color: #774F94;
+  margin: 0 0 15px;
+  font-size: 22px; }
+
+.promo-section__code {
+  margin: 0 0 10px;
+  font-size: 30px; }
+
+.promo-section__link {
+  font-size: 20px;
+  color: #9F9f9F; }

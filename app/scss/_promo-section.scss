@@ -1,0 +1,25 @@
+@import "mixins";
+@import "variables";
+
+
+.promo-section {
+  background-color: $borders-color;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.promo-section__title {
+  color: $light-theme-color;
+  margin: 0 0 15px;
+  font-size: 22px;
+}
+
+.promo-section__code {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.promo-section__link {
+  font-size: 20px;
+  color: $light-text-color;
+}
