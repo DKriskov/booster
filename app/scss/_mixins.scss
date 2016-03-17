@@ -1,4 +1,4 @@
-@import 'variables';
+
 
 @mixin retina {
   @media #{$media-query-retina} { @content; }

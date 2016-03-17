@@ -3,6 +3,10 @@
 @import "bower_components/susy/sass/susy";
 @import "bower_components/font-awesome/scss/font-awesome";
 
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
 @import 'global';
 @import 'header';
 @import 'user-profile';
